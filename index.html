@@ -8,23 +8,40 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rubik:ital@1&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/b456e08e90.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Demo Protfolio Site</title>
   </head>
-  <body>
-    <header>
-      <nav></nav>
-    </header>
-    <h1>My first project</h1>
-    <h2>A little about me:</h2>
-    <p>
-      My name is Mony Baruch i am 34 years old, this is my first project.<br />
-      I live in Beer-Sheva Isreal. <br />
-      I am learning web development at a college named AppleSeeds.<br />
-      I am very excited about doing this project.
-    </p>
-    <div>
-      <img class="author" src="mony.jpg" />
-    </div>
+  <body id="home">
+    <main class="container">
+      <div class="nav-bar">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fa-solid fa-laptop-code"></i> MB </span>Web Development
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#my-works">My-Works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="content" id="about">
+        <h2>Welcome to my protfolio site!</h2>
+        <p>
+          My name is Mony Baruch i am 34 years old, this is my first project. I live in Beer-Sheva Isreal. I am learning
+          web development at a college named AppleSeeds. I am very excited about doing this project.
+        </p>
+        <img src="./images/me.jpg" alt="" />
+        <div id="my-works">
+          <h3>You can check my works at the links below:</h3>
+          <ul>
+            <li><a href="https://github.com/monybaruch/HotelProject">Hotel Project</a></li>
+            <li><a href="https://github.com/monybaruch/Grid-News-Website">News Site</a></li>
+            <li><a href="https://github.com/monybaruch/The-Dice-Game">Dice Game</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
