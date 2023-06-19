@@ -1,8 +1,6 @@
 # Demo-Portfolio-Site
 
-I was given a task from AppleSeeds Bootcamp to make a Demo personal portfolio page while only using `HTML` and `CSS`
-
-my design was a one page site.
+I was given a task from AppleSeeds Bootcamp to make a Demo personal portfolio page while only using `HTML` and `CSS` my design was a one page site.
 
 <br/>
 
