@@ -102,11 +102,8 @@ i {
   justify-content: center;
   text-align: center;
   height: 100%;
-  padding: 20px;
-  padding-top: 120px;
   overflow: hidden;
 }
-
 .container .content h2 {
   font-size: 3rem;
 }

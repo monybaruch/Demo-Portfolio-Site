@@ -1,0 +1,39 @@
+.nav-bar {
+  flex-direction: column;
+  background-color: black;
+  height: 400px;
+  padding: 15px;
+}
+
+a {
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .content img {
+  display: none;
+}
+
+.container .content h2 {
+  font-size: 2rem;
+}
+
+.container .content p {
+  font-size: 1.3rem;
+  margin: 20px;
+  height: auto;
+}
+
+.content ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
