@@ -19,6 +19,11 @@ li {
   flex-direction: column;
 }
 
+.container .content {
+  flex-wrap: wrap;
+  display: flex;
+}
+
 .container .content img {
   display: none;
 }
